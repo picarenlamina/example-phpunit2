@@ -7,4 +7,5 @@ En este repositorio funciona actions con phpunit para pruebas unitarias.
     #- name: Validate composer.json and composer.lock
     # run: composer validate --strict
    
+   
 3. No funcionan las pruebas funcionales al faltar levantar el servidor web
