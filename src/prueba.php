@@ -2,4 +2,4 @@
 
 $valor = $_GET( "numero" );
 
-echo "<div id="prueba">$valor</div>";
+echo "<div id="resultado">$valor</div>";
