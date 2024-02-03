@@ -22,7 +22,7 @@ final class Libreria2Test extends TestCase
 	{
 		$client = new GuzzleHttp\Client();
 		$domDoc = new DOMDocument();
-		$url = 'localhost:/';
+		$url = 'http://localhost/';
 
 		$res = $client->request('GET', $url . 'prueba.php', ['query' => ['valor' => '5', ]]);
 		//$res = $client->request('POST', $url . 'prueba3.php', ['form_params' => ['valor' => '5','submit' => 'Enviar', ]]);
