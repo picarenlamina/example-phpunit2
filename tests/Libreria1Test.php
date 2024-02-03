@@ -19,6 +19,7 @@ final class Libreria1Test extends TestCase
 		$valor  = Libreria::factorial( 5 );
 
 		$this->assertEquals(120, $valor);
+		//$this->assertEquals(121, $valor);
 		
 	}
 	
