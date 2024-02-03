@@ -25,7 +25,8 @@ final class Libreria2Test extends TestCase
 		$url = 'http://localhost/guzzle/first/app/';
 
 		$res = $client->request('GET', $url . 'prueba.php', ['query' => ['valor' => '5', ]]);
-		
+		//$res = $client->request('POST', $url . 'prueba3.php', ['form_params' => ['valor' => '5','submit' => 'Enviar', ]]);
+
 		
 
 
