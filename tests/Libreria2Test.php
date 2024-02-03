@@ -24,7 +24,7 @@ final class Libreria2Test extends TestCase
 		$domDoc = new DOMDocument();
 		$url = 'http://localhost/guzzle/first/app/';
 
-		$res = $client->request('GET', $url . 'prueba2.php', ['query' => ['valor' => '5', ]]);
+		$res = $client->request('GET', $url . 'prueba.php', ['query' => ['valor' => '5', ]]);
 		
 		
 
@@ -37,16 +37,16 @@ final class Libreria2Test extends TestCase
 		//discard white space 
 		$domDoc->preserveWhiteSpace = false;
 
-		  //the table by its tag name
-		  //$divs = $domDoc->getElementsByTagName('div');
+		  //Buscamos etiquetas div
+		  $divs = $domDoc->getElementsByTagName('div');
 
 
 		  // loop over the table rows
-		  /* foreach ($divs as $item) 
+		  foreach ($divs as $item) 
 		  {
-		   var_dump( $item );
+		   if( 
 		   echo $item->nodeValue;
-			} */
+		  } */
 
 		$item = $domDoc->getElementById('resultado');
 		
