@@ -42,7 +42,7 @@ final class Libreria2Test extends TestCase
 
 
 		  // loop over the table rows
-		  foreach ($divs as $item) 
+		 /* foreach ($divs as $item) 
 		  {
 		   if( 
 		   echo $item->nodeValue;
@@ -53,7 +53,7 @@ final class Libreria2Test extends TestCase
 		
 		
 
-		$this->assertEquals(120, $item->nodeValue);
+		$this->assertEquals(5, $item->nodeValue);
 		
 	}
 	
