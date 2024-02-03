@@ -2,6 +2,11 @@
 
 En este repositorio funciona actions con phpunit para pruebas unitarias.
 
+LibreriaTest1.php OK
+
+En este repositorio NO  funciona actions con phpunit Y GUZZLE  para pruebas funcionales
+
+LibreriaTest2.php NO OK
 
 
 1. Comentada linea en action php.yml 
