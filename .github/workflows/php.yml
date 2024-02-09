@@ -12,8 +12,7 @@ permissions:
 jobs:
   build:
 
-    #runs-on: ubuntu-latest
-    runs-on: php:8.2-cli
+    runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v3
