@@ -5,6 +5,7 @@ namespace App;
 use InvalidArgumentException;
 
 
+
 class Libreria
 {
 	static function factorial( $valor )
